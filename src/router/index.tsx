@@ -22,7 +22,7 @@ const Router = () => {
   return (
     <HashRouter>
       {/* 重定向 */}
-      <Redirect to="/home" />
+      <Redirect to="/customer-center/business-processing" />
       <Switch>{routeArr}</Switch>
     </HashRouter>
   );

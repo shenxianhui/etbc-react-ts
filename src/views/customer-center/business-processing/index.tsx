@@ -1,15 +1,15 @@
 /*
+ * @Description: 业务处理
  * @Author: shenxh
- * @Date: 2021-10-25 11:35:32
+ * @Date: 2022-06-06 15:37:23
  * @LastEditors: shenxh
- * @LastEditTime: 2021-10-25 15:29:39
- * @Description: 信息
+ * @LastEditTime: 2022-06-06 15:40:35
  */
 
 import React, { Component, Fragment } from 'react';
 import { withRouter } from 'react-router-dom';
 
-class MyInfo extends Component {
+class BusinessProcessing extends Component {
   static defaultProps = {};
 
   constructor(props: object) {
@@ -25,9 +25,9 @@ class MyInfo extends Component {
   componentWillUnmount() {}
 
   render() {
-    return <Fragment>信息</Fragment>;
+    return <Fragment>123456789</Fragment>;
   }
 }
 
 // @ts-ignore
-export default withRouter(MyInfo);
+export default withRouter(BusinessProcessing);

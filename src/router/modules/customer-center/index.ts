@@ -1,3 +1,11 @@
+/*
+ * @Description: 客户中心
+ * @Author: shenxh
+ * @Date: 2022-06-02 14:49:05
+ * @LastEditors: shenxh
+ * @LastEditTime: 2022-06-07 10:25:16
+ */
+
 const files: any = require.context('.', true, /\.ts$/);
 
 let modules: any[] = [];
